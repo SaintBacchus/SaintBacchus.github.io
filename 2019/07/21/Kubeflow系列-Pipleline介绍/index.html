@@ -104,19 +104,19 @@
 <meta property="og:site_name" content="HuangZhaowei&#39; Blog">
 <meta property="og:description" content="总览Pipeline在Kubeflow里面是一个最重要的能力, 因为需要它来串流整个机器学习任务的组件.因此我们首先介绍一下pipeline的定义: 它是一个工作流平台，能够编译部署机器学习的工作流, 可以定义复杂的数据DAG流程, 并提供可视化的流程展示和结果展示. 核心概念pipelines实现了一个工作流模型。所谓工作流，或者称之为流水线（pipeline），可以将其当做一个有向无环图（DA">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/2.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/6.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/3.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/4.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/5.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/7.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/8.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/18.png">
-<meta property="og:updated_time" content="2020-09-14T06:03:45.748Z">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/2.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/6.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/3.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/4.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/5.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/7.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/8.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/18.png">
+<meta property="og:updated_time" content="2021-04-30T08:47:06.454Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[Kubeflow系列]Pipleline介绍">
 <meta name="twitter:description" content="总览Pipeline在Kubeflow里面是一个最重要的能力, 因为需要它来串流整个机器学习任务的组件.因此我们首先介绍一下pipeline的定义: 它是一个工作流平台，能够编译部署机器学习的工作流, 可以定义复杂的数据DAG流程, 并提供可视化的流程展示和结果展示. 核心概念pipelines实现了一个工作流模型。所谓工作流，或者称之为流水线（pipeline），可以将其当做一个有向无环图（DA">
-<meta name="twitter:image" content="http://yoursite.com/images/kubeflow_introduce/2.png">
+<meta name="twitter:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/2.png">
 
 
 
@@ -451,7 +451,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-09-14 14:03:45" itemprop="dateModified" datetime="2020-09-14T14:03:45+08:00">2020-09-14</time>
+                <time title="修改时间：2021-04-30 16:47:06" itemprop="dateModified" datetime="2021-04-30T16:47:06+08:00">2021-04-30</time>
               
             
           </span>
@@ -552,11 +552,11 @@
 <li>Step: Component对应实体, 就是上图之中的方框, 应该是一个Step会真实对应一个K8s的Pod</li>
 </ol>
 <h2 id="官方案例"><a href="#官方案例" class="headerlink" title="官方案例"></a>官方案例</h2><p>官方的<strong>XGBoost - Training with Confusion Matrix</strong>案例:</p>
-<h3 id="流程可视化页面"><a href="#流程可视化页面" class="headerlink" title="流程可视化页面:"></a>流程可视化页面:</h3><p><img src="/images/kubeflow_introduce/2.png" alt></p>
-<h3 id="提交任务页面"><a href="#提交任务页面" class="headerlink" title="提交任务页面:"></a>提交任务页面:</h3><p><img src="/images/kubeflow_introduce/6.png" alt></p>
+<h3 id="流程可视化页面"><a href="#流程可视化页面" class="headerlink" title="流程可视化页面:"></a>流程可视化页面:</h3><p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/2.png" alt></p>
+<h3 id="提交任务页面"><a href="#提交任务页面" class="headerlink" title="提交任务页面:"></a>提交任务页面:</h3><p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/6.png" alt></p>
 <h3 id="Artifacts页面"><a href="#Artifacts页面" class="headerlink" title="Artifacts页面"></a>Artifacts页面</h3><p>运行起来的时候, 在Artifacts之中看到一些metric信息(这些信息需要在流程之中自定义)</p>
-<p><img src="/images/kubeflow_introduce/3.png" alt>  <img src="/images/kubeflow_introduce/4.png" alt></p>
-<p><img src="/images/kubeflow_introduce/5.png" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/3.png" alt>  <img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/4.png" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/5.png" alt></p>
 <h2 id="Pipeline的流程及架构"><a href="#Pipeline的流程及架构" class="headerlink" title="Pipeline的流程及架构"></a>Pipeline的流程及架构</h2><p>使用Pipeline一般会有以下的步骤:</p>
 <ol>
 <li>使用python代码编写pipeline定义代码</li>
@@ -568,7 +568,7 @@
 <p>Python代码定义再放在下一章节介绍, 这个章节介绍2-5步骤后台实现的流程. </p>
 <p>下面先介绍两个基础知识:</p>
 <h3 id="Argo"><a href="#Argo" class="headerlink" title="Argo"></a>Argo</h3><p>我们在Pipeline的页面上可以看到一个<code>Source</code>的子页面, 里面的内容是这个流程yaml格式的定义文件:</p>
-<p><img src="/images/kubeflow_introduce/7.png" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/7.png" alt></p>
 <p>可以看到叫做<a href="https://argoproj.github.io/" target="_blank" rel="noopener">argo</a>的组件,  它是一个开源的基于容器的工作流引擎，实现了一个K8S的CRD(用户自定义的资源):</p>
 <ul>
 <li>用容器实现工作流的每一个步骤</li>
@@ -577,7 +577,7 @@
 </ul>
 <p>实际上pipeline上传的就是argo的配置文件, 由这个配置文件来定义整个流程任务.</p>
 <p>这个配置文件需要<code>pipeline sdk</code>对用户Python代码进行编译产生.</p>
-<h3 id="架构"><a href="#架构" class="headerlink" title="架构"></a>架构</h3><p><img src="/images/kubeflow_introduce/8.png" alt></p>
+<h3 id="架构"><a href="#架构" class="headerlink" title="架构"></a>架构</h3><p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/8.png" alt></p>
 <p>pipeline的架构, 主要由以下模块组成:</p>
 <ol>
 <li>编译模块(SDK), 将Python代码转化为argo配置文件</li>
@@ -606,7 +606,7 @@
 <p>最后, 执行<code>main</code>函数, 可以生成一个tar.gz包, 将这个包上传到流程页面上, 就能开始运行任务.</p>
 <h2 id="Pipeline的SDK简要说明"><a href="#Pipeline的SDK简要说明" class="headerlink" title="Pipeline的SDK简要说明"></a>Pipeline的SDK简要说明</h2><p><a href="https://kubeflow-pipelines.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener">API文档</a>之中详细写明了SDK目前的功能, 这儿就简单啰嗦一句.</p>
 <p>目前SDK只支持如下几个模块的功能:</p>
-<p><img src="/images/kubeflow_introduce/18.png" alt="img"></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/18.png" alt="img"></p>
 <ol>
 <li>首先是<code>compiler</code>模块, 主要是将python代码转化为<code>argo</code>的yaml配置项</li>
 <li><code>components</code>模型实现如何导入外部模块, 以及如何构建模块</li>
@@ -922,7 +922,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>

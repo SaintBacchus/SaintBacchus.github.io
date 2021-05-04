@@ -104,14 +104,14 @@
 <meta property="og:site_name" content="HuangZhaowei&#39; Blog">
 <meta property="og:description" content="缓存读 缓存更新 缓存并发问题 缓存系统存在根本的问题是缓存的读写和数据库读写不是原子的, 因此它必然会出现并发的问题. 缓存并发解决思路引入全局锁例如Redis就有锁机制, 通过redis实现全局锁(行锁),  更新的时候设置排它锁, 不允许读取操作即可. 这就和数据库之中的悲观锁是一个性质的, 这种系统最大的问题就是吞吐量限制, 每次必须查询锁的状态 引入消息队列或者使用乐观锁的实现方式, 就">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://yoursite.com/images/cache_consistency/1.png">
-<meta property="og:image" content="http://yoursite.com/images/cache_consistency/2.png">
-<meta property="og:image" content="http://yoursite.com/images/cache_consistency/3.png">
-<meta property="og:updated_time" content="2020-09-14T06:03:45.751Z">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/cache_consistency/1.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/cache_consistency/2.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/cache_consistency/3.png">
+<meta property="og:updated_time" content="2021-04-30T08:47:06.453Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="缓存一致性问题">
 <meta name="twitter:description" content="缓存读 缓存更新 缓存并发问题 缓存系统存在根本的问题是缓存的读写和数据库读写不是原子的, 因此它必然会出现并发的问题. 缓存并发解决思路引入全局锁例如Redis就有锁机制, 通过redis实现全局锁(行锁),  更新的时候设置排它锁, 不允许读取操作即可. 这就和数据库之中的悲观锁是一个性质的, 这种系统最大的问题就是吞吐量限制, 每次必须查询锁的状态 引入消息队列或者使用乐观锁的实现方式, 就">
-<meta name="twitter:image" content="http://yoursite.com/images/cache_consistency/1.png">
+<meta name="twitter:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/cache_consistency/1.png">
 
 
 
@@ -446,7 +446,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-09-14 14:03:45" itemprop="dateModified" datetime="2020-09-14T14:03:45+08:00">2020-09-14</time>
+                <time title="修改时间：2021-04-30 16:47:06" itemprop="dateModified" datetime="2021-04-30T16:47:06+08:00">2021-04-30</time>
               
             
           </span>
@@ -533,9 +533,9 @@
       
 
       
-        <h2 id="缓存读"><a href="#缓存读" class="headerlink" title="缓存读"></a>缓存读</h2><p><div align="center"><img src="/images/cache_consistency/1.png" alt></div></p>
-<h2 id="缓存更新"><a href="#缓存更新" class="headerlink" title="缓存更新"></a>缓存更新</h2><p><div align="center"><img src="/images/cache_consistency/2.png" alt></div></p>
-<h2 id="缓存并发问题"><a href="#缓存并发问题" class="headerlink" title="缓存并发问题"></a>缓存并发问题</h2><p><div align="center"><img src="/images/cache_consistency/3.png" alt></div></p>
+        <h2 id="缓存读"><a href="#缓存读" class="headerlink" title="缓存读"></a>缓存读</h2><p><div align="center"><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/cache_consistency/1.png" alt></div></p>
+<h2 id="缓存更新"><a href="#缓存更新" class="headerlink" title="缓存更新"></a>缓存更新</h2><p><div align="center"><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/cache_consistency/2.png" alt></div></p>
+<h2 id="缓存并发问题"><a href="#缓存并发问题" class="headerlink" title="缓存并发问题"></a>缓存并发问题</h2><p><div align="center"><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/cache_consistency/3.png" alt></div></p>
 <p>缓存系统存在根本的问题是<strong>缓存的读写和数据库读写不是原子的</strong>, 因此它必然会出现并发的问题.</p>
 <h2 id="缓存并发解决思路"><a href="#缓存并发解决思路" class="headerlink" title="缓存并发解决思路"></a>缓存并发解决思路</h2><h3 id="引入全局锁"><a href="#引入全局锁" class="headerlink" title="引入全局锁"></a>引入全局锁</h3><p>例如<code>Redis</code>就有锁机制, 通过<code>redis</code>实现全局锁(行锁),  更新的时候设置排它锁, 不允许读取操作即可.</p>
 <p>这就和数据库之中的<code>悲观锁</code>是一个性质的, 这种系统最大的问题就是吞吐量限制, 每次必须查询锁的状态</p>
@@ -844,7 +844,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>

@@ -104,20 +104,20 @@
 <meta property="og:site_name" content="HuangZhaowei&#39; Blog">
 <meta property="og:description" content="什么是Kubeflow对于官网的定义:  The Kubeflow project is dedicated to making deployments of machine learning (ML) workflows on Kubernetes simple, portable and scalable. Our goal is not to recreate other services,">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/1.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/9.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/10.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/1.jpg">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/19.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/volcano-intro.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/kube-batch.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/20.png">
-<meta property="og:image" content="http://yoursite.com/images/kubeflow_introduce/arch.svg">
-<meta property="og:updated_time" content="2020-09-14T06:03:45.748Z">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/1.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/9.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/10.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/1.jpg">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/19.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/volcano-intro.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/kube-batch.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/20.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/arch.svg">
+<meta property="og:updated_time" content="2021-04-30T08:47:06.454Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[Kubeflow系列]总览介绍">
 <meta name="twitter:description" content="什么是Kubeflow对于官网的定义:  The Kubeflow project is dedicated to making deployments of machine learning (ML) workflows on Kubernetes simple, portable and scalable. Our goal is not to recreate other services,">
-<meta name="twitter:image" content="http://yoursite.com/images/kubeflow_introduce/1.png">
+<meta name="twitter:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/1.png">
 
 
 
@@ -452,7 +452,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-09-14 14:03:45" itemprop="dateModified" datetime="2020-09-14T14:03:45+08:00">2020-09-14</time>
+                <time title="修改时间：2021-04-30 16:47:06" itemprop="dateModified" datetime="2021-04-30T16:47:06+08:00">2021-04-30</time>
               
             
           </span>
@@ -551,7 +551,7 @@
 <li>Python语言, kubeflow的代码库大多以Python编写</li>
 </ol>
 <h2 id="Kubeflow有什么"><a href="#Kubeflow有什么" class="headerlink" title="Kubeflow有什么"></a>Kubeflow有什么</h2><p><code>Kubeflow</code>有很多的组件,  可以在官网文档的<a href="https://master.kubeflow.org/docs/components/" target="_blank" rel="noopener">Components</a>模块之中找到所有能力组件, 我把这些模块整理了一下, 画出脑图, 如下:</p>
-<p><img src="/images/kubeflow_introduce/1.png" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/1.png" alt></p>
 <p><strong>左边的一列</strong>为kubeflow面向机器学习领域提供的能力, 包括模型的训练推理以及自动学习的超参调优组件, Kubeflow已经支持了市面上大多数的训练和推理框架, 其中最完善的就是google自己家的<code>TensorFlow</code>.</p>
 <p>当然也是最重要的一个模块, 毕竟Kubeflow的名字有一般来自于它.</p>
 <p><strong>右边的一列</strong>为Kubeflow的基础能力, 主要为pipeline, notebook, fairing以及一些公共的组件, 例如元数据管理等, 这个部分是围绕AI能力外围的基础组件, 主要关注于工程部分, 例如使用pipeline进行编排, 使用notebook进行开发等.</p>
@@ -586,7 +586,7 @@
 </blockquote>
 <h3 id="Pipeline"><a href="#Pipeline" class="headerlink" title="Pipeline"></a>Pipeline</h3><p>这块的目的就是为了编排Kubeflow任务用的, 在<a href="https://saintbacchus.github.io/2019/07/21/Kubeflow-pipleline%E4%BB%8B%E7%BB%8D/" target="_blank" rel="noopener">这篇文章</a>之中介绍.</p>
 <h3 id="Jupiter-Notebook"><a href="#Jupiter-Notebook" class="headerlink" title="Jupiter Notebook"></a>Jupiter Notebook</h3><p>Notebook是数据科学家比较喜欢的编程工具, kubeflow已经集成:</p>
-<p><img src="/images/kubeflow_introduce/9.png" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/9.png" alt></p>
 <p>上图是notebook的创建页面,  可以看出来kubeflow的notebook有以下能力:</p>
 <ol>
 <li>自定义镜像</li>
@@ -596,7 +596,7 @@
 </ol>
 <p><strong> 使用notebook提交pipeline</strong></p>
 <p>以官方的<strong>Lightweight Python components - basics</strong>为例子</p>
-<p><img src="/images/kubeflow_introduce/10.png" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/10.png" alt></p>
 <ul>
 <li>上边的cell定了流程算子</li>
 <li>中间的cell编译流程算子, 生成<code>argo</code>的配置文件<code>pipeline.zip</code></li>
@@ -615,11 +615,11 @@
 <h4 id="Metadata"><a href="#Metadata" class="headerlink" title="Metadata"></a>Metadata</h4><p>元数据模块主要是为了用户能更好的管理和追踪kubeflow的流程,  它后台使用的是Google的<a href="https://github.com/google/ml-metadata/blob/master/g3doc/get_started.md" target="_blank" rel="noopener">ML-Metadata</a>来管理, 而且暴露了<a href="https://github.com/kubeflow/metadata/blob/master/api/service.swagger.json" target="_blank" rel="noopener">REST API</a>来跟用户调用, 同时也有<a href="https://github.com/kubeflow/metadata/tree/master/sdk/python#python-client" target="_blank" rel="noopener">Python SDK</a>远程调用</p>
 <h4 id="kustomize"><a href="#kustomize" class="headerlink" title="kustomize"></a>kustomize</h4><p><code>kustomize</code>并不是kubeflow的一个项目, 而是<a href="https://github.com/kubernetes-sigs/kustomize" target="_blank" rel="noopener">kubernetes-sigs</a>的一个子项目, 主要简化部署K8s服务的麻烦.</p>
 <p>他的idea的是这样的: 之前部署k8s需要定义很多的YAML文件, 这些文件都要自己管理, 而kustomize可以将这些文件管理起来, 貌似还有版本管理的能力</p>
-<p><img src="/images/kubeflow_introduce/1.jpg" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/1.jpg" alt></p>
 <p>看一下这个图片示意, 基本上就了解.</p>
 <p><a href="https://github.com/kubernetes-sigs/kustomize" target="_blank" rel="noopener">官网地址</a></p>
 <h4 id="Nuclio-functions"><a href="#Nuclio-functions" class="headerlink" title="Nuclio functions"></a>Nuclio functions</h4><p>Nuclio 是开源的一个实时无服务器平台, 支持可插拔的事件源和数据源, 下面是它的整体架构.</p>
-<p><img src="/images/kubeflow_introduce/19.png" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/19.png" alt></p>
 <blockquote>
 <p>目前没看出来这个Serverless的框架和Kubeflow有太多的联系, 而且FaaS战场上Nuclio也不是真正的主流, <code>knative</code>是google推的Serverless解决方案, 所以这个部分不多介绍了.  </p>
 </blockquote>
@@ -630,7 +630,7 @@
 <h4 id="Microk8s"><a href="#Microk8s" class="headerlink" title="Microk8s"></a>Microk8s</h4><p>单机K8s测试环境的库,  这个安装起来比<code>Minikube</code>和<code>MiniKF</code>更加方便</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/canonical-labs/kubernetes-tools</span><br><span class="line">sudo kubernetes-tools/setup-microk8s.sh</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/canonical-labs/kubeflow-tools</span><br><span class="line">kubeflow-tools/install-kubeflow.sh</span><br></pre></td></tr></table></figure>
 <h4 id="Volcano’s-scheduler"><a href="#Volcano’s-scheduler" class="headerlink" title="Volcano’s scheduler"></a>Volcano’s scheduler</h4><p>Volcano调度是华为公司贡献给社区的批处理调度器,  支持AI和大数据计算</p>
-<p><img src="/images/kubeflow_introduce/volcano-intro.png" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/volcano-intro.png" alt></p>
 <p>给K8s提供以下能力:</p>
 <ol>
 <li>Job management extensions and improvements, e.g:<ol>
@@ -660,7 +660,7 @@
 </ol>
 </li>
 </ol>
-<h5 id="Kube-Batch"><a href="#Kube-Batch" class="headerlink" title="Kube-Batch"></a>Kube-Batch</h5><p><img src="/images/kubeflow_introduce/kube-batch.png" alt></p>
+<h5 id="Kube-Batch"><a href="#Kube-Batch" class="headerlink" title="Kube-Batch"></a>Kube-Batch</h5><p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/kube-batch.png" alt></p>
 <p><code>kube-batch</code>是一个为kubernetes实现批量任务调度的一个调度器，主要用于<code>机器学习</code>，<code>大数据</code>，<code>HPC</code>等场景.</p>
 <p>而Volcano正是构建在Kube-Batch之上的.</p>
 <h5 id="Gang-Scheduler"><a href="#Gang-Scheduler" class="headerlink" title="Gang Scheduler"></a>Gang Scheduler</h5><p><code>gang-schedule</code>是什么概念? 用用户提交一个 batch job, 这个batch job 包含100个任务，要不这100个任务全部调度成功，要么一个都调度不成功。这种<code>all or nothing</code>调度场景，就被称作:<code>gang-schedule</code>，通常用于集群资源不足的场景，比如 AI 场景下调用GPU资源</p>
@@ -669,14 +669,14 @@
 <p><a href="https://xigang.github.io/2019/02/17/gang-scheduler/" target="_blank" rel="noopener">参考文章</a></p>
 </blockquote>
 <h4 id="Dex"><a href="#Dex" class="headerlink" title="Dex"></a>Dex</h4><p><a href="https://github.com/coreos/dex" target="_blank" rel="noopener">dex</a> 是一个统一认证的服务，支持各种认证协议如Ouath2 ldap等，自己可以作为一个identity provider,也可以连到别的id provider(如github)上,dex作为一个中间代理.</p>
-<p><img src="/images/kubeflow_introduce/20.png" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/20.png" alt></p>
 <p>安装官网给出的推荐案例, 使用dex进行租户认证</p>
 <blockquote>
 <p><a href="https://github.com/dexidp/dex" target="_blank" rel="noopener">Github首页</a></p>
 </blockquote>
 <h4 id="Istio"><a href="#Istio" class="headerlink" title="Istio"></a>Istio</h4><p>Istio是钟Service Mesh的实现, Service Mesh这个术语通常用于描述构成这些应用程序的微服务网络以及应用之间的交互。随着规模和复杂性的增长，服务网格越来越难以理解和管理。它的需求包括服务发现、负载均衡、故障恢复、指标收集和监控以及通常更加复杂的运维需求，例如 A/B 测试、金丝雀发布、限流、访问控制和端到端认证等。</p>
 <p>Istio 提供了一个完整的解决方案，通过为整个服务网格提供行为洞察和操作控制来满足微服务应用程序的多样化需求.</p>
-<p><img src="/images/kubeflow_introduce/arch.svg" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kubeflow_introduce/arch.svg" alt></p>
 <blockquote>
 <p><a href="https://istio.io/" target="_blank" rel="noopener">官网首页</a>以及<a href="https://istio.io/zh/docs/concepts/what-is-istio/" target="_blank" rel="noopener">中文官网</a></p>
 </blockquote>
@@ -996,7 +996,7 @@ st->op1->op2->op3->e</textarea><textarea id="flowchart-1-options" style="display
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>

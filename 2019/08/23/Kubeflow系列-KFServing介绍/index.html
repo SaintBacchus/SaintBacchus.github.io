@@ -104,13 +104,13 @@
 <meta property="og:site_name" content="HuangZhaowei&#39; Blog">
 <meta property="og:description" content="之前调研了TensorFlow Serving的功能, 这周又抽出来一点时间, 调研一下KubeFlow Serving KFServing的定位之前在Kubeflow的介绍文章有提过, Kubeflow支持Training和Serving, 但是如果仔细看Serving的官网会发现, 目前这个Serving似乎只是把这种各样的Serving镜像给安装部署起来就好了, 感觉游离在系统之外的. 所以">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://yoursite.com/images/kfserving/kfserving.png">
-<meta property="og:image" content="http://yoursite.com/images/kfserving/dataplane.jpg">
-<meta property="og:updated_time" content="2020-09-14T06:03:45.747Z">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kfserving/kfserving.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kfserving/dataplane.jpg">
+<meta property="og:updated_time" content="2021-04-30T08:47:06.453Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[Kubeflow系列]KFServing介绍">
 <meta name="twitter:description" content="之前调研了TensorFlow Serving的功能, 这周又抽出来一点时间, 调研一下KubeFlow Serving KFServing的定位之前在Kubeflow的介绍文章有提过, Kubeflow支持Training和Serving, 但是如果仔细看Serving的官网会发现, 目前这个Serving似乎只是把这种各样的Serving镜像给安装部署起来就好了, 感觉游离在系统之外的. 所以">
-<meta name="twitter:image" content="http://yoursite.com/images/kfserving/kfserving.png">
+<meta name="twitter:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kfserving/kfserving.png">
 
 
 
@@ -445,7 +445,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-09-14 14:03:45" itemprop="dateModified" datetime="2020-09-14T14:03:45+08:00">2020-09-14</time>
+                <time title="修改时间：2021-04-30 16:47:06" itemprop="dateModified" datetime="2021-04-30T16:47:06+08:00">2021-04-30</time>
               
             
           </span>
@@ -538,7 +538,7 @@
 <blockquote>
 <p> 但是, 目前TFServing虽然提交活跃度挺高, 但是还没有挂在官网介绍文章之中,  版本非常新, 目前才v0.2版本, 未来接口可能会有很大变化</p>
 </blockquote>
-<h2 id="KFServing架构"><a href="#KFServing架构" class="headerlink" title="KFServing架构"></a>KFServing架构</h2><p><img src="/images/kfserving/kfserving.png" alt></p>
+<h2 id="KFServing架构"><a href="#KFServing架构" class="headerlink" title="KFServing架构"></a>KFServing架构</h2><p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kfserving/kfserving.png" alt></p>
 <p>从架构图上可以看出, KFServing在非常高的位置之上,  它底层的服务能力依赖于<a href="https://knative.dev/docs/" target="_blank" rel="noopener">KNative</a>(<em>主要是KNative的Serving模块</em>), 上层支持的框架有:</p>
 <ol>
 <li>TensorFlow: 镜像由于TensorFlow官网提供</li>
@@ -549,7 +549,7 @@
 </ol>
 <p><strong>基本上主流的一些机器学习框架都已经支持</strong></p>
 <p>下面看一下KFServing的服务能力,  数据流图如下所以: </p>
-<p><img src="/images/kfserving/dataplane.jpg" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/kfserving/dataplane.jpg" alt></p>
 <p>这个是一个典型的灰度发布场景,  一个默认环境, 一个灰度环境, 由KNative的来控制流量.</p>
 <blockquote>
 <p>KFServing似乎目前只支持一个灰度实例</p>
@@ -882,7 +882,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>

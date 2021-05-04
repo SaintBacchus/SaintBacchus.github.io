@@ -8,6 +8,142 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2019/07/10/Kubeflow%E7%B3%BB%E5%88%97-Kubeflow%E7%9A%84%E9%83%A8%E7%BD%B2/</loc>
+        <lastmod>2021-04-30T08:47:06.511Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/08/01/%E5%8D%8E%E4%B8%BA%E4%BA%91%E4%B8%8A%E5%AE%89%E8%A3%85helm/</loc>
+        <lastmod>2021-04-30T08:47:06.492Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/06/15/Hexo%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7%E8%AE%B0%E5%BD%95/</loc>
+        <lastmod>2021-04-30T08:47:06.454Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/08/24/Kubeflow%E7%B3%BB%E5%88%97-KNative%E4%BB%8B%E7%BB%8D/</loc>
+        <lastmod>2021-04-30T08:47:06.454Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/07/21/Kubeflow%E7%B3%BB%E5%88%97-Pipleline%E4%BB%8B%E7%BB%8D/</loc>
+        <lastmod>2021-04-30T08:47:06.454Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/07/14/Kubeflow%E7%B3%BB%E5%88%97-%E6%80%BB%E8%A7%88%E4%BB%8B%E7%BB%8D/</loc>
+        <lastmod>2021-04-30T08:47:06.454Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/09/08/GATK4-0-Spark%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/</loc>
+        <lastmod>2021-04-30T08:47:06.454Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/08/23/Kubeflow%E7%B3%BB%E5%88%97-KFServing%E4%BB%8B%E7%BB%8D/</loc>
+        <lastmod>2021-04-30T08:47:06.453Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/08/17/SQLFlow%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</loc>
+        <lastmod>2021-04-30T08:47:06.453Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/08/03/%E7%BF%BB%E5%A2%99%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/</loc>
+        <lastmod>2021-04-30T08:47:06.453Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/07/14/%E7%BC%93%E5%AD%98%E4%B8%80%E8%87%B4%E6%80%A7%E9%97%AE%E9%A2%98/</loc>
+        <lastmod>2021-04-30T08:47:06.453Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/06/14/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%BC%8F/</loc>
+        <lastmod>2021-04-30T08:47:06.453Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/06/14/%E8%BF%AD%E4%BB%A3%E5%99%A8%E5%BC%95%E5%AF%BC%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E6%83%A8%E6%A1%88/</loc>
+        <lastmod>2021-04-30T08:47:06.453Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/06/05/%E5%8A%A0%E8%A7%A3%E5%AF%86%E6%8A%80%E6%9C%AF/</loc>
+        <lastmod>2021-04-30T08:47:06.453Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/06/01/2019-06-01-%E5%86%8D%E7%9C%8B%E9%98%BF%E7%94%98%E6%AD%A3%E4%BC%A0%E6%9C%89%E6%84%9F/</loc>
+        <lastmod>2021-04-30T08:47:06.453Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2015/10/30/Spark-Streaming-Indroduce/</loc>
+        <lastmod>2021-04-30T08:40:31.774Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2019/08/11/Docker%E8%AE%BE%E7%BD%AE%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/</loc>
+        <lastmod>2021-04-30T08:40:31.772Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2020/08/30/%E6%9C%AA%E6%9D%A5%E4%BA%94%E5%B9%B4%E9%A2%84%E6%B5%8B/</loc>
         <lastmod>2020-09-14T07:08:19.994Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -48,14 +184,6 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/2019/06/14/%E8%BF%AD%E4%BB%A3%E5%99%A8%E5%BC%95%E5%AF%BC%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E6%83%A8%E6%A1%88/</loc>
-        <lastmod>2020-09-14T06:03:45.752Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://yoursite.com/2019/06/13/%E8%BD%AC-%E5%87%A0%E9%81%93%E6%8A%9B%E7%A1%AC%E5%B8%81%E9%97%AE%E9%A2%98/</loc>
         <lastmod>2020-09-14T06:03:45.752Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -64,23 +192,7 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/2019/08/03/%E7%BF%BB%E5%A2%99%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/</loc>
-        <lastmod>2020-09-14T06:03:45.751Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://yoursite.com/2019/07/30/%E8%93%9D%E7%BB%BF%E5%8F%91%E5%B8%83-%E7%81%B0%E5%BA%A6%E5%8F%91%E5%B8%83%E5%92%8CAB%E6%B5%8B%E8%AF%95/</loc>
-        <lastmod>2020-09-14T06:03:45.751Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2019/07/14/%E7%BC%93%E5%AD%98%E4%B8%80%E8%87%B4%E6%80%A7%E9%97%AE%E9%A2%98/</loc>
         <lastmod>2020-09-14T06:03:45.751Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -104,30 +216,6 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/2019/08/01/%E5%8D%8E%E4%B8%BA%E4%BA%91%E4%B8%8A%E5%AE%89%E8%A3%85helm/</loc>
-        <lastmod>2020-09-14T06:03:45.750Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2019/06/14/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%BC%8F/</loc>
-        <lastmod>2020-09-14T06:03:45.750Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2019/06/05/%E5%8A%A0%E8%A7%A3%E5%AF%86%E6%8A%80%E6%9C%AF/</loc>
-        <lastmod>2020-09-14T06:03:45.750Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://yoursite.com/2018/08/19/%E4%BD%BF%E7%94%A8Spark%E8%BF%9B%E8%A1%8CWGS%E5%88%86%E6%9E%90/</loc>
         <lastmod>2020-09-14T06:03:45.750Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -136,23 +224,7 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/2019/08/17/SQLFlow%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</loc>
-        <lastmod>2020-09-14T06:03:45.749Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://yoursite.com/2019/07/30/Ubuntu%E4%BD%BF%E7%94%A8Git%E6%8A%A5%E9%94%99/</loc>
-        <lastmod>2020-09-14T06:03:45.749Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2015/10/30/Spark-Streaming-Indroduce/</loc>
         <lastmod>2020-09-14T06:03:45.749Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -176,56 +248,8 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/2019/07/21/Kubeflow%E7%B3%BB%E5%88%97-Pipleline%E4%BB%8B%E7%BB%8D/</loc>
-        <lastmod>2020-09-14T06:03:45.748Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2019/07/14/Kubeflow%E7%B3%BB%E5%88%97-%E6%80%BB%E8%A7%88%E4%BB%8B%E7%BB%8D/</loc>
-        <lastmod>2020-09-14T06:03:45.748Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://yoursite.com/2019/09/22/Kubeflow%E7%B3%BB%E5%88%97-MPI-Operator%E4%BB%8B%E7%BB%8D/</loc>
         <lastmod>2020-09-14T06:03:45.747Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2019/08/24/Kubeflow%E7%B3%BB%E5%88%97-KNative%E4%BB%8B%E7%BB%8D/</loc>
-        <lastmod>2020-09-14T06:03:45.747Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2019/08/23/Kubeflow%E7%B3%BB%E5%88%97-KFServing%E4%BB%8B%E7%BB%8D/</loc>
-        <lastmod>2020-09-14T06:03:45.747Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2019/07/10/Kubeflow%E7%B3%BB%E5%88%97-Kubeflow%E7%9A%84%E9%83%A8%E7%BD%B2/</loc>
-        <lastmod>2020-09-14T06:03:45.747Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2019/06/15/Hexo%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7%E8%AE%B0%E5%BD%95/</loc>
-        <lastmod>2020-09-14T06:03:45.746Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -256,31 +280,7 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/2018/09/08/GATK4-0-Spark%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/</loc>
-        <lastmod>2020-09-14T06:03:45.746Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2019/08/11/Docker%E8%AE%BE%E7%BD%AE%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86/</loc>
-        <lastmod>2020-09-14T06:03:45.745Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://yoursite.com/2019/07/13/Docker-in-docker/</loc>
-        <lastmod>2020-09-14T06:03:45.745Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2019/06/01/2019-06-01-%E5%86%8D%E7%9C%8B%E9%98%BF%E7%94%98%E6%AD%A3%E4%BC%A0%E6%9C%89%E6%84%9F/</loc>
         <lastmod>2020-09-14T06:03:45.745Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

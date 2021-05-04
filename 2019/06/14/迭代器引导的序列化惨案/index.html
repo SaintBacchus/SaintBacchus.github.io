@@ -104,14 +104,14 @@
 <meta property="og:site_name" content="HuangZhaowei&#39; Blog">
 <meta property="og:description" content="背景今天2月份左右GATK的4.1版本发布, 经过测试目前版本的准确率相对于单机版本也有版本提高, 具体数值见下表 单机版GATK准确率表      单机GATK Precision Sensitivity F-measure     SNP 98.90% 99.84% 99.37%   INDEL 97.20% 96.22% 96.71%     分布式版GATK准确率表      分布式GAT">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://yoursite.com/images/iterator_serializable/001.png">
-<meta property="og:image" content="http://yoursite.com/images/iterator_serializable/002.png">
-<meta property="og:image" content="http://yoursite.com/images/iterator_serializable/003.png">
-<meta property="og:updated_time" content="2020-09-14T06:03:45.752Z">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/iterator_serializable/001.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/iterator_serializable/002.png">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/iterator_serializable/003.png">
+<meta property="og:updated_time" content="2021-04-30T08:47:06.453Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="迭代器引导的序列化惨案">
 <meta name="twitter:description" content="背景今天2月份左右GATK的4.1版本发布, 经过测试目前版本的准确率相对于单机版本也有版本提高, 具体数值见下表 单机版GATK准确率表      单机GATK Precision Sensitivity F-measure     SNP 98.90% 99.84% 99.37%   INDEL 97.20% 96.22% 96.71%     分布式版GATK准确率表      分布式GAT">
-<meta name="twitter:image" content="http://yoursite.com/images/iterator_serializable/001.png">
+<meta name="twitter:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/iterator_serializable/001.png">
 
 
 
@@ -446,7 +446,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-09-14 14:03:45" itemprop="dateModified" datetime="2020-09-14T14:03:45+08:00">2020-09-14</time>
+                <time title="修改时间：2021-04-30 16:47:06" itemprop="dateModified" datetime="2021-04-30T16:47:06+08:00">2021-04-30</time>
               
             
           </span>
@@ -634,10 +634,10 @@
 <p>构造一次测试用例:</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">SparkContext sc;</span><br><span class="line">ReferenceSequenceFile ref = <span class="keyword">new</span> UserDefinedReferenceSequenceFile()</span><br><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">    sc.broadcast(ref)</span><br><span class="line">&#125; <span class="keyword">catch</span> (Throwable t) &#123;</span><br><span class="line">    t.printStackTrace();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>在<code>UserDefinedReferenceSequenceFile</code>里面不断将其中的字段加入进去, 最后发现以下代码片段导致整个<code>StackOverflowError</code>的问题:</p>
-<p><div align="center"><img src="/images/iterator_serializable/001.png" alt></div></p>
+<p><div align="center"><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/iterator_serializable/001.png" alt></div></p>
 <p>就是这个<code>Iterator</code>在序列化的时候, 会不断的递归遍历, 导致栈溢出.<br><code>Iterator</code>的实现为<code>LinkedHashIterator</code>, 里面<code>LinkedHashMap.Entry</code>为一个二叉树, 因此, 需要真实序列化的, 就会不断去遍历整个二叉树, 导致问题整个.</p>
-<p><div align="center"><img src="/images/iterator_serializable/002.png" alt></div></p>
-<p><div align="center"><img src="/images/iterator_serializable/003.png" alt></div></p>
+<p><div align="center"><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/iterator_serializable/002.png" alt></div></p>
+<p><div align="center"><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/iterator_serializable/003.png" alt></div></p>
 <h2 id="问题修复方案"><a href="#问题修复方案" class="headerlink" title="问题修复方案"></a>问题修复方案</h2><p>社区已经有解决的<a href="https://github.com/broadinstitute/gatk/pull/5950" target="_blank" rel="noopener">方案</a>了,  总体的方式就是不要在<code>Driver</code>加载Reference文件, 而是放在<code>Executor</code>, 这样就能免去序列化的步骤. </p>
 <blockquote>
 <p>社区的问题目的是为了解决内存问题, 但实际上这个是序列化的问题. 此外实际运行的时候, 还有一个内存OMM的问题, 这个并不能够解决.</p>
@@ -945,7 +945,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>

@@ -104,14 +104,14 @@
 <meta property="og:site_name" content="HuangZhaowei&#39; Blog">
 <meta property="og:description" content="KNative目前的一些介绍文章:  官网 ServiceMesher介绍 蚂蚁金服的布道师 华为云介绍系列   缘起第一次关注到KNative这个项目是在Info上Kubernetes 上领先的开源 Serverless 解决方案有哪些的文章上, 文章里面对比了常见的Serverless框架, KNative是其中的一个, 又由于这个项目是Google推出的, 因此当时觉得这个项目应该是最有希">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://yoursite.com/images/knative/three-compomnent.jpg">
-<meta property="og:image" content="http://yoursite.com/images/knative/knative-audience.svg">
-<meta property="og:image" content="http://yoursite.com/images/knative/serving.png">
-<meta property="og:updated_time" content="2020-09-14T06:03:45.747Z">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/knative/three-compomnent.jpg">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/knative/knative-audience.svg">
+<meta property="og:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/knative/serving.png">
+<meta property="og:updated_time" content="2021-04-30T08:47:06.454Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[Kubeflow系列]KNative介绍">
 <meta name="twitter:description" content="KNative目前的一些介绍文章:  官网 ServiceMesher介绍 蚂蚁金服的布道师 华为云介绍系列   缘起第一次关注到KNative这个项目是在Info上Kubernetes 上领先的开源 Serverless 解决方案有哪些的文章上, 文章里面对比了常见的Serverless框架, KNative是其中的一个, 又由于这个项目是Google推出的, 因此当时觉得这个项目应该是最有希">
-<meta name="twitter:image" content="http://yoursite.com/images/knative/three-compomnent.jpg">
+<meta name="twitter:image" content="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/knative/three-compomnent.jpg">
 
 
 
@@ -446,7 +446,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-09-14 14:03:45" itemprop="dateModified" datetime="2020-09-14T14:03:45+08:00">2020-09-14</time>
+                <time title="修改时间：2021-04-30 16:47:06" itemprop="dateModified" datetime="2021-04-30T16:47:06+08:00">2021-04-30</time>
               
             
           </span>
@@ -558,13 +558,13 @@
 <li>任务如何触发, 对应KNative的Event模块,  使用一些消息中间件来缓存/发送请求, 例如Kafka</li>
 <li>函数如何服务化, 对应的是KNative的Serving模块, 将用户的代码服务化, 并有服务该有的能力, 例如流量控制,自动伸缩等</li>
 </ol>
-<p><img src="/images/knative/three-compomnent.jpg" alt></p>
+<p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/knative/three-compomnent.jpg" alt></p>
 <p>这个三组件是KNative的核心, 整个流程都按照三个模块来构建, 下面就看一下每个模块之中的架构概念.</p>
 <blockquote>
 <p>目前是0.8版本, 现在Build模块已经被移除, 链接到了另外一个开源库.</p>
 <p>就整个架构而言,  Build应该算是整个框架的接口, 如果这个Build不在自己做的话, 无法完成平台的闭环</p>
 </blockquote>
-<h2 id="KNative架构"><a href="#KNative架构" class="headerlink" title="KNative架构"></a>KNative架构</h2><p><img src="/images/knative/knative-audience.svg" alt></p>
+<h2 id="KNative架构"><a href="#KNative架构" class="headerlink" title="KNative架构"></a>KNative架构</h2><p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/knative/knative-audience.svg" alt></p>
 <p>首先看一下KNative的顶层架构:</p>
 <ul>
 <li><p>KNative依赖于Kubernetes, 三大组件的物理实现都是Kubernetes的CRD</p>
@@ -577,7 +577,7 @@
 <blockquote>
 <p>分工很明确, 比较看好这种方式</p>
 </blockquote>
-<h3 id="KNative-Serving模块"><a href="#KNative-Serving模块" class="headerlink" title="KNative Serving模块"></a>KNative Serving模块</h3><p><img src="/images/knative/serving.png" alt></p>
+<h3 id="KNative-Serving模块"><a href="#KNative-Serving模块" class="headerlink" title="KNative Serving模块"></a>KNative Serving模块</h3><p><img src="https://carlmartin-pic-1305764798.cos.ap-chengdu.myqcloud.com/hexo/images/knative/serving.png" alt></p>
 <p>Serving主要是服务管理的能力, KNative创造了这几个概念:</p>
 <ol>
 <li><p>Service: 工作负载的底层概念, 管理整个生命周期</p>
@@ -908,7 +908,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
